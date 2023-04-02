@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Zeppelin Cloud</string>
+    <string name="details">Details</string>
+    <string name="welcome">Welcome to Yacht in the Cloud</string>
+    <string name="sign_in">Welcome! Sign into your account</string>
+    <string name="registration_inst">Please fill in your details below, and instructions will be sent to your email with a temporary password.</string>
+    <string name="new_vessel">New Vessel</string>
+    <string name="vessel_list">Vessel List</string>
+    <string name="new_vessel_inst">Would you like to manually enter the information, or upload documents for automatic data retrieval?</string>
+    <string name="log_in">Log In</string>
+    <string name="register">Register</string>
+    <string name="submit">Submit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Vessel List -->
+    <string-array name="vessels">
+        <item>M/Y Yolo</item>
+        <item>M/Y Solemates</item>
+        <item>M/Y DB9</item>
+        <item>M/Y Fore Aces</item>
+        <item>M/V V2V Empress</item>
+        <item>M/Y Picosa Lady</item>
+    </string-array>
+
+    <string-array name="registration_numbers">
+        <item>JMP13044</item>
+        <item>KY 752087</item>
+        <item>KY 742937</item>
+        <item>JMP13038</item>
+        <item>BZ 652210013</item>
+        <item>MI 70907</item>
+    </string-array>
+</resources>

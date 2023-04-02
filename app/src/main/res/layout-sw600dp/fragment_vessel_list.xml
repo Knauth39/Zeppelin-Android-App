@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/vessel_list"
+        android:name="com.example.zeppelin.ListFragment"
+        android:layout_width="677dp"
+        android:layout_height="1687dp"
+        android:layout_marginStart="16dp"
+        app:layoutManager="LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:context="com.example.zeppelin.MainActivity"
+        tools:listitem="@layout/list_item_vessel" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/detail_frag_container"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="1220dp"
+        android:layout_height="1693dp"
+        android:layout_marginStart="8dp"
+        app:defaultNavHost="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toEndOf="@id/vessel_list"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:navGraph="@navigation/sub_nav_graph" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
