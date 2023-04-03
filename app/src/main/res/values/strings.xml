@@ -1,16 +1,59 @@
 <resources>
+    <!-- Strings for Welcome screens -->
     <string name="app_name">Zeppelin Cloud</string>
     <string name="details">Details</string>
-    <string name="welcome">Welcome to Yacht in the Cloud</string>
+    <string name="welcome">Welcome to Yachting in the Cloud</string>
     <string name="sign_in">Welcome! Sign into your account</string>
-    <string name="registration_inst">Please fill in your details below, and instructions will be sent to your email with a temporary password.</string>
-    <string name="new_vessel">New Vessel</string>
-    <string name="vessel_list">Vessel List</string>
-    <string name="new_vessel_inst">Would you like to manually enter the information, or upload documents for automatic data retrieval?</string>
     <string name="log_in">Log In</string>
     <string name="register">Register</string>
     <string name="submit">Submit</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="helper_email">your@email.com</string>
+    <string name="helper_password">password</string>
+
+    <!-- Strings for account creation -->
+    <string name="registration_inst">Please fill in your details below, and instructions will be sent to your email with a temporary password.</string>
+    <string name="name_first">First Name:</string>
+    <string name="name_last">Last Name:</string>
+    <string name="email">Email:</string>
+    <string name="user_type">User Type:</string>
+    <string-array name="user_type">
+        <item>Captain</item>
+        <item>Yacht Admin</item>
+        <item>Crew Member</item>
+        <item>Agent</item>
+        <item>Fleet Manager</item>
+    </string-array>
+    <string name="thank_you_reg">Thank you for registering!</string>
+    <string name="account_confirmation">Please allow up to 24 hours for your account to be approved and actived.  You will be send a confirmation email with a temporary password.</string>
+
+    <!-- User Home-screen Buttons -->
+    <string name="view_vessel_list">View Vessel List</string>
+    <string name="view_documents">View My Documents</string>
+    <string name="View_ais">View AIS Data</string>
+    <string name="complete_forms">Complete Forms</string>
+    <string name="export_vessel_profile">Export Vessel Profile</string>
+
+    <!-- Vessel CRUD -->
+    <string name="new_vessel">New Vessel</string>
+    <string name="vessel_list">Vessel List</string>
+    <string name="new_vessel_inst">Would you like to manually enter the information, or upload documents for automatic data retrieval?</string>
+    <string name="edit_vessel">Edit Vessel</string>
+    <string name="delete_vessel">Delete Vessel</string>
+    <string name="delete_alert">Are you sure you want to delete this vessel?</string>
+    <string name="save">Save</string>
+
+    <!-- Vessel Data Labels -->
+    <string name="vessel_name">Vessel Name:</string>
+    <string name="vessel_make">Make:</string>
+    <string name="year_built">Year Built:</string>
+    <string name="flag_country">Flag Country:</string>
+    <string name="home_port">Home Port:</string>
+    <string name="owning_comp">Owning Company:</string>
+    <string name="reg_number">Registration Number:</string>
+    <string name="reg_expiration">Registration Expiration:</string>
+    <string name="for_charter">Listed for Charter?</string>
+
+    <!-- Misc placeholders -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!-- Vessel List -->

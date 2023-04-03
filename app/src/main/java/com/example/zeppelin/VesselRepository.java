@@ -10,6 +10,7 @@ public class VesselRepository {
     private static VesselRepository instance;
     private List<Vessel> mVessels;
 
+    // Singleton pattern
     public static VesselRepository getInstance(Context context) {
         if (instance == null) {
             instance = new VesselRepository(context);

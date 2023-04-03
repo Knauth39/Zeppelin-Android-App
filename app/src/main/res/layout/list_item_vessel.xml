@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/vessel_name"
         tools:text="vessel"
-        style="@style/VesselListName">
+        style="@style/vesselListName">
     </TextView>
 
 </LinearLayout>

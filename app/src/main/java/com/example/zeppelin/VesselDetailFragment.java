@@ -28,7 +28,7 @@ public class VesselDetailFragment extends Fragment {
             vesselId = args.getInt(ARG_VESSEL_ID);
         }
 
-        // Get the selected band
+        // Get the selected vessel
         mVessel = VesselRepository.getInstance(requireContext()).getVessel(vesselId);
     }
 

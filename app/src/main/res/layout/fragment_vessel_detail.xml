@@ -8,17 +8,60 @@
     tools:context=".VesselDetailFragment">
 
     <TextView
-        android:id="@+id/band_name"
+        android:id="@+id/vessel_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/vesselName"
         tools:text="Vessel Name"/>
 
+    <Button
+        android:id="@+id/btnEditVessel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_vessel"
+        android:textSize="@dimen/h5_text" />
+
+    <Button
+        android:id="@+id/btnDeleteVessel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_vessel"
+        android:textSize="@dimen/h5_text" />
+
     <TextView
-        android:id="@+id/band_description"
+        android:id="@+id/vessel_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/vesselDescription"
         tools:text="description"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <ImageButton
+            android:id="@+id/btnExportToFile"
+            android:src="@drawable/baseline_file_upload_50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/accent_1"
+            android:layout_margin="@dimen/fab_margin"/>
+        <ImageButton
+            android:id="@+id/btnExportSMS"
+            android:src="@drawable/baseline_sms_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/accent_1"
+            android:layout_margin="@dimen/fab_margin"/>
+        <ImageButton
+            android:id="@+id/btnExportEmail"
+            android:src="@drawable/baseline_email_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/accent_1"
+            android:layout_margin="@dimen/fab_margin"/>
+    </LinearLayout>
+
 
 </LinearLayout>
