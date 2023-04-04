@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_text_size">30sp</dimen>
+    <dimen name="list_padding">12dp</dimen>
+
+    <dimen name="detail_vessel_text_size">40sp</dimen>
+    <dimen name="detail_description_text_size">30sp</dimen>
+    <dimen name="detail_padding">30dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_field_height">80dp</dimen>
+    <dimen name="margin_height">20dp</dimen>
+    <dimen name="btn_height">80dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="h1_text">70sp</dimen>
+    <dimen name="h2_text">60sp</dimen>
+    <dimen name="h3_text">50sp</dimen>
+    <dimen name="h4_text">40sp</dimen>
+    <dimen name="h5_text">30sp</dimen>
+    <dimen name="h6_text">25sp</dimen>
+    <dimen name="p_text">20sp</dimen>
+</resources>

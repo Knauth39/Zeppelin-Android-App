@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:textAlignment="center">
+
+    <!-- TODO Insert AppBar Menu -->
+
+
+    <TextView
+        android:text="Welcome, {{Mary}}"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="@dimen/h5_text" />
+
+    <TextView
+        android:text="You are logged in as {{Agent}} for {{Zephyr Yacht Solutions}}."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="@dimen/h6_text" />
+
+    <Button
+        android:id="@+id/btnVesselList"
+        android:text="@string/view_vessel_list"
+        android:drawableRight="@drawable/baseline_arrow_circle_right_24"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:textSize="@dimen/h6_text" />
+    <Button
+        android:id="@+id/btnViewDocs"
+        android:text="@string/view_documents"
+        android:drawableRight="@drawable/baseline_arrow_circle_right_24"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:textSize="@dimen/h6_text" />
+    <Button
+        android:id="@+id/btnViewAis"
+        android:text="@string/View_ais"
+        android:drawableRight="@drawable/baseline_arrow_circle_right_24"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:textSize="@dimen/h6_text" />
+    <Button
+        android:id="@+id/btnCompleteForms"
+        android:text="@string/complete_forms"
+        android:drawableRight="@drawable/baseline_arrow_circle_right_24"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:textSize="@dimen/h6_text" />
+    <Button
+        android:id="@+id/btnExportVesselProfile"
+        android:text="@string/export_vessel_profile"
+        android:drawableRight="@drawable/baseline_arrow_circle_right_24"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:textSize="@dimen/h6_text" />
+</LinearLayout>

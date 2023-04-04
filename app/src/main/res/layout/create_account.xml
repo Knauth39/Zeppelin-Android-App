@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:textAlignment="center">
+
+    <ImageView
+        android:src="@drawable/logo_orange"
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:text="@string/registration_inst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="@dimen/h6_text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/name_first"
+        android:text="@string/name_first" />
+    <EditText
+        android:id="@+id/name_first"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_field_height"
+        app:strokeColor="@color/accent_1"
+        app:strokeWidth="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/name_last"
+        android:text="@string/name_last" />
+    <EditText
+        android:id="@+id/name_last"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_field_height"
+        android:inputType="text"
+        app:strokeColor="@color/accent_1"
+        app:strokeWidth="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:labelFor="@+id/email_edit_text"/>
+    <EditText
+        android:id="@+id/email_edit_text"
+        android:inputType="textEmailAddress"
+        android:autofillHints="@string/helper_email"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_field_height"
+        app:strokeColor="@color/accent_1"
+        app:strokeWidth="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user_type"
+        android:labelFor="@+id/spinnerUserType"/>
+    <Spinner
+        android:id="@+id/spinnerUserType"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_field_height"
+        android:text="@string/user_type"
+        app:strokeColor="@color/accent_1"
+        app:strokeWidth="5dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:text="@string/submit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:textSize="@dimen/h5_text"
+        app:strokeColor="@color/accent_1"
+        app:strokeWidth="5dp" />
+</LinearLayout>

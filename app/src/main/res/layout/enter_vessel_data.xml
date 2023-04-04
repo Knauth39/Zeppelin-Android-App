@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:textAlignment="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vessel Name"
+        android:textSize="@dimen/h4_text"
+        android:textAlignment="center" />
+        <!-- TODO : Vessel Name is an object retrieved from database -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vessel_name"
+        android:labelFor="@+id/vesselName"
+        android:textSize="@dimen/p_text" />
+    <EditText
+        android:inputType="text"
+        android:id="@+id/vesselName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vessel_make"
+        android:labelFor="@+id/vesselMake"
+        android:textSize="@dimen/p_text" />
+    <EditText
+        android:inputType="text"
+        android:id="@+id/vesselMake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/year_built"
+        android:labelFor="@+id/yearBuilt"
+        android:textSize="@dimen/p_text" />
+    <EditText
+        android:inputType="number"
+        android:id="@+id/yearBuilt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/flag_country"
+        android:labelFor="@+id/flagCountry"
+        android:textSize="@dimen/p_text" />
+    <EditText
+        android:inputType="text"
+        android:id="@+id/flagCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_port"
+        android:labelFor="@+id/homePort"
+        android:textSize="@dimen/p_text" />
+    <EditText
+        android:inputType="text"
+        android:id="@+id/homePort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/owning_comp"
+        android:labelFor="@+id/owningComp"
+        android:textSize="@dimen/p_text" />
+    <EditText
+        android:inputType="text"
+        android:id="@+id/owningComp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reg_number"
+        android:labelFor="@+id/regNumber"
+        android:textSize="@dimen/p_text" />
+    <EditText
+        android:inputType="text"
+        android:id="@+id/regNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reg_expiration"
+        android:labelFor="@+id/regExpiration"
+        android:textSize="@dimen/p_text" />
+    <EditText
+        android:inputType="date"
+        android:id="@+id/regExpiration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/for_charter"
+        android:labelFor="@+id/forCharter"
+        android:textSize="@dimen/p_text" />
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/forCharter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:text="@string/save"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:textSize="@dimen/h5_text" />
+
+</LinearLayout>
