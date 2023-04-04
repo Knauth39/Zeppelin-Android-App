@@ -55,6 +55,9 @@
 
     <!-- Misc placeholders -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="access_device">Do you allow permission for this Application to access your SMS data and stored contacts?</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
 
     <!-- Vessel List -->
     <string-array name="vessels">
